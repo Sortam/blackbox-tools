@@ -81,7 +81,8 @@ CFLAGS		= $(ARCH_FLAGS) \
                 $(DEBUG_FLAGS) \
 		-pthread \
 		-Wall -pedantic -Wextra -Wshadow
-
+CFLAGS += -I/D/Programming/MSys2/mingw64/include/cairo/
+CFLAGS += -I/D/Programming/MSys2/mingw64/include/freetype2/
 # Supports native builds on
 # * Linux,FreeBSD (system dynamic libraries)
 # * MacOS,
